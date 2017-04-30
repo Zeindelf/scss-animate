@@ -1,6 +1,6 @@
 {
   "name": "scss-animate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A SASS port of Dan Eden's Animate.css",
   "main": "",
   "scripts": {
