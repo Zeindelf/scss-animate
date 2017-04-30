@@ -21,7 +21,10 @@ Mais um port da Animate.css para SASS...
 ```
 
 Os mixins contém opções configuráveis para customizar suas animações:
+
 `count`, `duration`, `delay`, `function`, `fill` e `visibility`
+
+---
 
 #### Valores Padrão
 
@@ -50,6 +53,7 @@ Os mixins contém opções configuráveis para customizar suas animações:
     );
 }
 ```
+---
 
 #### Prehistoric Mode
 
@@ -62,4 +66,5 @@ Como nos originais, sob a [Licença MIT](http://opensource.org/licenses/MIT).
 ## Créditos
 
 Dan Eden's [Animate.css](https://github.com/daneden/animate.css)
+
 Geoff Graham's [Animate.scss](https://github.com/geoffgraham/animate.scss)
