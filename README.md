@@ -9,14 +9,14 @@ Mais um port da Animate.css para SASS...
 @import 'path/to/directory/_properties';
 
 // Importando as animações
-@import 'path/to/directory/_attention/attention.scss';
+@import 'path/to/directory/attention-seekers/attention-seekers.scss';
 ```
 
 ## Como Usar
 
 ```scss
 .sua-classe-css {
-    @include bounceIn();
+    @include bounce();
 }
 ```
 
@@ -43,8 +43,8 @@ Os mixins contém opções configuráveis para customizar suas animações:
 ```scss
 // Incluindo o mixin com as opções
 .sua-classe-css {
-    @include bounceIn(
-        $count: 2,
+    @include bounce(
+        $count: infinite,
         $duration: 1s,
         $delay: .2s,
         $function: ease,
